@@ -37,8 +37,9 @@ const Home = () => {
                 cars.map(car=><Cars 
                     key={car.id}
                     car={car}
-                ></Cars>)
+                ></Cars>).slice(1,4)
             }
+            
         </div>
       </div>
     </div>
