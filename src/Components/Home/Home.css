@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+
+.home-container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+.picture-container img{
+    width: 100%;
+    
+}
+.picture-container{
+    margin-right: 50px;
+}
+.text-container{
+    /* margin: none; */
+    margin-left: 50px;
+    
+}
+.future-car{
+    font-size: 60px;
+    color: #2b2a29;
+}
+.best-car{
+    font-size: 60px;
+    color:#8585d8;
+}
+.text-container p{
+    text-align: justify;
+    margin-top: 4px;
+}
+.customer-reviews{
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+    text-decoration: underline;
+}

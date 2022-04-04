@@ -1,0 +1,25 @@
+.header-container nav a{
+    text-decoration: underline;
+    text-decoration-color:#ac9797 ;
+    font-size: 25px;
+    /* justify-content:center; */
+    margin-right: 35px;
+    color: black;
+
+}
+.header-container nav a:hover{
+    color: #d78d8d;
+}
+
+.header-container{
+    margin-top: 40px;
+}
+.live-btn{
+    font-size: 20px;
+    background-color: #a38d71;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
