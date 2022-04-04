@@ -34,9 +34,25 @@
     text-align: justify;
     margin-top: 4px;
 }
-.customer-reviews{
+.customer-reviews-text{
     text-align: center;
     margin: 20px;
     font-size: 40px;
     text-decoration: underline;
+}
+
+.custom-reviews{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 20px;
+    gap: 10px 20px;
+}
+@media only screen and (max-width: 600px){
+    .custom-reviews{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 20px;
+        gap: 10px 20px;
+
+    }
 }

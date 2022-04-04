@@ -29,7 +29,7 @@ const Home = () => {
 
       <div className="custom-reviews-container">
         <div>
-          <h1 className="customer-reviews">Customers-reviews (3)</h1>
+          <h1 className="customer-reviews-text">Customers-reviews (3)</h1>
         </div>
 
         <div className="custom-reviews">
