@@ -55,6 +55,7 @@
     border: none;
     border-radius: 15px;
     color: rgb(12, 122, 71);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     cursor: pointer;
 }
 .show-all-btn:hover{
