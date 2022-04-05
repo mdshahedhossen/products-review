@@ -6,8 +6,8 @@ import Header from './Components/Header/Header';
 import Reviews from './Components/Reviews/Reviews';
 import Deshboard from './Components/Deshboard/Deshboard';
 import Blogs from './Components/Blogs/Blogs';
-import Nomatch from './Components/Nomatch';
 import About from './Components/About/About';
+import Notmatch from './Components/Notmatch/Notmatch';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         <Route path='/deshboard' element={<Deshboard></Deshboard>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/about' element={<About></About>}></Route>
-        <Route path='*' element={<Nomatch></Nomatch>}></Route>
+        <Route path='*' element={<Notmatch></Notmatch>}></Route>
       </Routes>
     </div>
   );
