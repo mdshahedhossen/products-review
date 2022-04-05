@@ -1,0 +1,6 @@
+.chart-container{
+    margin:100px;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}

@@ -1,0 +1,23 @@
+.box{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 40px;
+    width: 850px;
+    
+
+}
+.box p{
+    text-align: justify;
+    margin-top: 8px;
+}
+.box-container{
+    margin-top: 50px;
+}
+.box-container h1{
+    margin-bottom: 49px;
+    text-decoration: underline;
+    font-size: 60px;
+    color: #dbad6f;
+}
