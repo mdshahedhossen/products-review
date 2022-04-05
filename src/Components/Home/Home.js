@@ -1,10 +1,18 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import useCars from "../../hooks/UsesCar";
 import Cars from "../Cars/Cars";
 import "./Home.css";
 
 const Home = () => {
-    const[cars,setCars]=useCars()
+  
+  const[cars,setCars]=useCars()
+  let navigate=useNavigate()
+  const showAllreviews=()=>{
+    const path=`/reviews`
+    navigate(path)
+  }
+
   return (
     <div className="main-home-container">
       <div className="home-container">
@@ -39,7 +47,9 @@ const Home = () => {
                     car={car}
                 ></Cars>).slice(1,4)
             }
-            
+        </div>
+        <div>
+          <button className="show-all-btn" onClick={showAllreviews}>Show All Reviews</button>
         </div>
       </div>
     </div>
