@@ -1,14 +1,23 @@
 import React from 'react';
 import './Car.css'
 const Cars = (props) => {
-    const{picture,name,reviewer_name,review,rating}=props.car
+    const{picture,name,reviewr_img,reviewer_name,review,rating}=props.car
     return (
         <div className='cars'>
             <img src={picture} alt="" />
-            <h4>Car Model: {name}</h4>
-            <p>Reviewer: {reviewer_name}</p>
-            <p>Review: <small>{review}</small></p>
-            <p><small>Rating: {rating}</small></p>
+            <div className='car-elements'>
+                <h4>Car Model: {name}</h4>
+                <div className='reviewer-container'>
+                    <div className='reviewer-img'>
+                        <img src={reviewr_img} alt="" />
+                    </div>
+                    <div className='reviewer-name'>
+                        <p className='reviewer'>{reviewer_name}</p>
+                    </div>
+                </div>
+                <p><small className='review'>{review}</small></p>
+                <p><small className='rating'>Rating: {rating}</small></p>
+            </div>
         </div>
     );
 };

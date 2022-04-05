@@ -44,7 +44,7 @@
 .custom-reviews{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin: 20px;
+    margin: 50px;
     gap: 10px 20px;
 }
 .show-all-btn{
